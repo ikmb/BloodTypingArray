@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>CABO.h</itemPath>
+      <itemPath>CCartwright.h</itemPath>
+      <itemPath>CColton.h</itemPath>
+      <itemPath>CCromer.h</itemPath>
+      <itemPath>CDiegoWright.h</itemPath>
+      <itemPath>CDombrock.h</itemPath>
+      <itemPath>CDuffy.h</itemPath>
+      <itemPath>CIndian.h</itemPath>
+      <itemPath>CJR.h</itemPath>
+      <itemPath>CKEL.h</itemPath>
+      <itemPath>CKidd.h</itemPath>
+      <itemPath>CKnoops.h</itemPath>
+      <itemPath>CLU.h</itemPath>
+      <itemPath>CLan.h</itemPath>
+      <itemPath>CLandsteiner.h</itemPath>
+      <itemPath>CMNS.h</itemPath>
+      <itemPath>CRBCsnps.h</itemPath>
+      <itemPath>CRHCE.h</itemPath>
+      <itemPath>CRHD.h</itemPath>
+      <itemPath>CSNP.h</itemPath>
+      <itemPath>CSNPNameLookupMixin.h</itemPath>
+      <itemPath>CSNPNameLookupServiceInterface.h</itemPath>
+      <itemPath>CScianna.h</itemPath>
+      <itemPath>CSubstitutions.h</itemPath>
+      <itemPath>CVel.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>CABO.cpp</itemPath>
+      <itemPath>CCartwright.cpp</itemPath>
+      <itemPath>CColton.cpp</itemPath>
+      <itemPath>CCromer.cpp</itemPath>
+      <itemPath>CDiegoWright.cpp</itemPath>
+      <itemPath>CDombrock.cpp</itemPath>
+      <itemPath>CDuffy.cpp</itemPath>
+      <itemPath>CIndian.cpp</itemPath>
+      <itemPath>CJR.cpp</itemPath>
+      <itemPath>CKEL.cpp</itemPath>
+      <itemPath>CKidd.cpp</itemPath>
+      <itemPath>CKnoops.cpp</itemPath>
+      <itemPath>CLU.cpp</itemPath>
+      <itemPath>CLan.cpp</itemPath>
+      <itemPath>CLandsteiner.cpp</itemPath>
+      <itemPath>CMNS.cpp</itemPath>
+      <itemPath>CRBCsnps.cpp</itemPath>
+      <itemPath>CRHCE.cpp</itemPath>
+      <itemPath>CRHD.cpp</itemPath>
+      <itemPath>CSNP.cpp</itemPath>
+      <itemPath>CSNPNameLookupMixin.cpp</itemPath>
+      <itemPath>CScianna.cpp</itemPath>
+      <itemPath>CSubstitutions.cpp</itemPath>
+      <itemPath>CVel.cpp</itemPath>
+      <itemPath>main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <standard>11</standard>
+          <incDir>
+            <pElem>../MyTools</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <linkerAddLib>
+            <pElem>../MyTools/dist/Debug/GNU-Linux</pElem>
+          </linkerAddLib>
+          <linkerDynSerch>
+            <pElem>../MyTools/dist/Debug/GNU-Linux</pElem>
+          </linkerDynSerch>
+          <commandLine>-lMyTools</commandLine>
+        </linkerTool>
+      </compileType>
+      <item path="CABO.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CABO.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CCartwright.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CCartwright.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CColton.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CColton.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CCromer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CCromer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CDiegoWright.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CDiegoWright.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CDombrock.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CDombrock.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CDuffy.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CDuffy.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CIndian.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CIndian.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CJR.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CJR.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CKEL.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CKEL.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CKidd.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CKidd.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CKnoops.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CKnoops.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CLU.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CLU.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CLan.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CLan.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CLandsteiner.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CLandsteiner.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CMNS.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CMNS.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CRBCsnps.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CRBCsnps.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CRHCE.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CRHCE.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CRHD.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CRHD.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CSNP.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CSNP.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CSNPNameLookupMixin.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CSNPNameLookupMixin.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CSNPNameLookupServiceInterface.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CScianna.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CScianna.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CSubstitutions.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CSubstitutions.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CVel.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CVel.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <standard>11</standard>
+          <incDir>
+            <pElem>../MyTools</pElem>
+          </incDir>
+          <commandLine>-static</commandLine>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <linkerTool>
+          <linkerAddLib>
+            <pElem>../MyTools/dist/Release/GNU-Linux</pElem>
+          </linkerAddLib>
+          <linkerDynSerch>
+            <pElem>../MyTools/dist/Release/GNU-Linux</pElem>
+          </linkerDynSerch>
+          <commandLine>-lmytools</commandLine>
+        </linkerTool>
+      </compileType>
+      <item path="CABO.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CABO.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CCartwright.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CCartwright.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CColton.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CColton.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CCromer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CCromer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CDiegoWright.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CDiegoWright.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CDombrock.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CDombrock.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CDuffy.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CDuffy.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CIndian.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CIndian.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CJR.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CJR.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CKEL.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CKEL.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CKidd.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CKidd.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CKnoops.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CKnoops.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CLU.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CLU.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CLan.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CLan.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CLandsteiner.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CLandsteiner.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CMNS.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CMNS.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CRBCsnps.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CRBCsnps.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CRHCE.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CRHCE.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CRHD.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CRHD.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CSNP.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CSNP.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CSNPNameLookupMixin.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CSNPNameLookupMixin.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CSNPNameLookupServiceInterface.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CScianna.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CScianna.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CSubstitutions.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CSubstitutions.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CVel.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CVel.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

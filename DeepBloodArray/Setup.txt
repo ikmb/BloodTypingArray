@@ -1,0 +1,12 @@
+# commands to run the package
+
+
+# TensorFlow in a conda environment
+
+# conda create -n TensorFlow
+# conda activate TensorFlow
+# conda install -c conda-forge tensorflow scikit-learn -y
+# conda install pandas 
+
+
+
